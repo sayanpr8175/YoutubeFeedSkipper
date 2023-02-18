@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Julee', cursive;
+}
+
+body{
+	background: linear-gradient(-45deg, #ed9478, #eb558e, #3abeee, #21eebe);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100vh;
+}
+
+.iostyle {
+    background: linear-gradient(-90deg, #2af0c2a1, #79ddae, #9654ecf5, #58c4ebfb);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100vh;
+}
+
+
+.iostyle{
+    height: 6rem;
+    width: 30rem;
+    text-align: center;
+    border-radius: 6rem;
+    font-size: large;
+    border: none;
+    color: #fff;
+    margin: 2rem;
+    
+}
+
+
+
+.parent{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn--submit,
+.btn--img{
+    border: none;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 1.2rem;
+    border-radius: 50%;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
